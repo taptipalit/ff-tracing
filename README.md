@@ -10,7 +10,7 @@ LTTNg is a kernel (and userspace, but we don't care about that part now) tracing
 
 TraceCompas is a CTF trace visualization tool. It's sometimes useful to get a bigger picture of what's going on. 
 
-It needs Java 11 and is very particular about it. Download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
+It needs Java 11 and is very particular about it. Download it from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html), and TraceCompass from [here](https://www.eclipse.org/tracecompass/)
 
 **3. Launch Firefox**
 
