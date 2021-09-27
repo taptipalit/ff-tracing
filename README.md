@@ -23,5 +23,7 @@ The script `lttng-start.sh` requires the target application to be launched and i
 - Wait until you get the following output on the terminal:
 `Run the application under test. After completing running, press any key to continue`
 
-- Now, in firefox open the website you want to benchmark (enter it's address in the address-bar). Once it has finished loading, come back to the terminal and hit enter. This should end the tracing session and print the statistics about how many times any of the Firefox processes/threads were switched out and how much time the CPU spent executing Firefox processes and threads. We can add other interesting statistics later.
+- Now, in firefox open the website you want to benchmark (enter it's address in the address-bar). Wait for the website to load fully.
+
+- Once it has finished loading, come back to the terminal and hit enter. This should end the tracing session and print the statistics about how many times any of the Firefox processes/threads were switched out and how much time the CPU spent executing Firefox processes and threads. We can add other interesting statistics later.
 
