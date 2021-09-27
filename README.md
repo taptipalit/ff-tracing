@@ -29,3 +29,5 @@ The script `lttng-start.sh` requires the target application to be launched and i
 
 - Once it has finished loading, come back to the terminal and hit enter. This should end the tracing session and print the statistics about how many times any of the Firefox processes/threads were switched out and how much time the CPU spent executing Firefox processes and threads. We can add other interesting statistics later.
 
+- The CTF log is also dumped in a human readable format as `ff-trace-human.txt`
+
