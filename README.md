@@ -14,9 +14,11 @@ It needs Java 11 and is very particular about it. Download it from [here](https:
 
 **3. Launch Firefox**
 
-The script `lttng-start.sh` requires the target application to be launched and in "waiting" state. So just launch it, but don't open any websites yet.
+The script `lttng-start.sh` requires the target application to be launched and in "waiting" state. So just launch firefox, but don't open any websites yet.
 
 **4. Start the tracing**
+
+(Run all of these as root)
 
 - Run `./lttng-start.sh firefox` to first start the tracing session. This script will automatically initialize a tracing session to track the scheduler related trace events for all processes with the name "firefox" _and_ it's children.
 
